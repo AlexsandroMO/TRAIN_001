@@ -1,3 +1,71 @@
+IP
+https://www.axis.com/files/press_releases/es/pr_3902_es_es_20150306.pdf
+
+DI-Audio
+https://www.di-audio.com.co/x-ip-system/
+
+Amplificadores
+https://www.commend.com/es/productos/interfonia/unified-pa-amplifiers-200859.html
+
+caixas
+https://www.commend.com/es/productos/interfonia/unified-pa-loudspeakers-200860.html
+
+acessórios
+https://www.commend.com/es/productos/interfonia/unified-pa-accesorios-amplificadores-200193.html
+
+
+
+caixa tipo corneta
+https://www.digitalsecuritymagazine.com/pt/2015/04/22/axis-c3003-e-altavoz-ip-de-plataforma-abierta-para-transmision-de-mensajes-de-emergencia-de-largo-alcance/
+
+
+
+PLENA microfone e altifalantes
+http://www.tucanobrasil.com.br/sonorizacao/plena.htm
+
+
+diagrama
+http://www.conduvox.com.br/manual/alta-voz-cdx-250/250-1.pdf
+
+Som e Audio Praesideo - Sistema de Comunicação de Emergência
+http://sesi.pt/services/som-audio/
+
+
+
+
+Dados Técnicos
+https://es.boschsecurity.com/pt/productos/publicaddressandvoicealar_4/digitalpaandemergencysoun_4/praesideosystem_4/praesideosystem_4_6514
+
+http://resource.boschsecurity.us/documents/Data_sheet_ptPT_1859880331.pdf
+
+http://www.ljasistemas.com.br/som-evacuacao/
+
+
+http://www.segind.com.br/sonorizacao/PLN1LA10.pdf
+
+https://www.boschsecurity.com/xl/pt/produtos/sistemas-de-sonorizacao-e-evacuacao-por-voz/praesideo/
+
+Normas:
+
+https://www.en-standard.eu/bs-en-54-16-2008-fire-detection-and-fire-alarm-systems-voice-alarm-control-and-indicating-equipment/?gclid=EAIaIQobChMIjd3_zsDa5QIVloWRCh27Aw9mEAAYASAAEgJp4fD_BwE
+
+https://www.ilumac.com.br/single-post/2018/06/24/Certifica%C3%A7%C3%A3o-de-produtos-e-servi%C3%A7os
+
+catalogo
+https://st-nso-fr.resource.bosch.com/media/emea_product/07_extranet/12_architecture_and_engineering/04_communication_systems/pa_and_voice_alarm/norms___regulations/en54-certified_solutions_explained_evac.pdf
+
+
+
+
+http://www.tucanobrasil.com.br/sonorizacao/plena.htm
+
+
+
+
+
+
+
+
 
 
 Bosch
@@ -24,6 +92,8 @@ NAUTA:
 https://www.nauta.pt/conteudos/catalogo/detalhe.aspx?idSite=5&id=5931&title=bosch-pln6cs&idioma=pt
 
 
+Aeroporto:
+http://toa.com.br/wp-content/uploads/2014/05/Solucoes-para-Aeroportos.pdf
 
 
 
@@ -32,8 +102,19 @@ https://www.nauta.pt/conteudos/catalogo/detalhe.aspx?idSite=5&id=5931&title=bosc
 sistem a utilizar:
 https://resource.boschsecurity.com/documents/OP_Operation_Manual_ptPT_27021614745232651.pdf
 
+Norma EN54
+https://discabos.com.br/blog/novidades/normas-para-equipamentos-de-audio-em-sistemas-de-seguranca
+
+https://discabos.com.br/blog/novidades/solucoes-toa-para-sistemas-de-audio-em-aeroportos
+
+https://www.toa.jp/products/pro_speakers/compact_array_speakers/hx-5b.html
+
+Alto-falantes Line Array
+https://produto.mercadolivre.com.br/MLB-1168938425-caixa-line-array-attack-versa-red-vsl206-b-ampl2x61dr-_JM?quantity=1&variation=44250432986#position=18&type=item&tracking_id=054aaed9-70db-4011-bdad-7b170292309f
 
 
+
+https://discabos.com.br/produtos/avlife/sistema-hdmi-via-ip/extensor-hdmi-via-ip-zuri
 
 
 
@@ -50,6 +131,7 @@ caixas de som corneta
 https://resource.boschsecurity.us/documents/Operation_Manual_enUS_1213619211.pdf
 
 
+
 Remote Call Station
 
 
@@ -58,29 +140,34 @@ Remote Call Station
 
 TV 50" LED compatível com conexão HDMI. Ref.: LG / Sansung ou similar
 
-Central Conversora HDMI/Ethernet
+Transmissor HDMI/Ethernet. Ref.: ATEN/ Zuriou similar.
 
-Módulo conversor Ethernet / HDMI
+Módulo receptor Ethernet/HDMI. Ref.: ATEN/ Zuriou similar.
 
 Switch Gerenciável Gigabit, velocidade de conexão de (10/100/1000) Mbps, mínimo 8 portas ethernet, padrão RJ45. Fixação em rack 19" ou sobre a mesa. Ref.: TP-Link, Link ou similar.
 
-Patch Cord Ethernet, Cat5, conectores RJ45. Comprimento 2M 
+Patch Cord Ethernet, Cat5, conectores RJ45. Comprimento 1M - (Conexão entre a central conversora e o switch gerenciável)
+Patch Cord Ethernet, Cat5, conectores RJ45. Comprimento 1M - (Conexão entre a central conversora e o switch gerenciável)
 
-Patch Cord Ethernet, Cat5, conectores RJ45. Comprimento 1M 
+cabo HDMI 1,5m - (Conexão entre os módulos conversores e as TVs)
 
 Software de instalação e monitoramento de vídeo compatível com tecnologia de tranamissão de vídeo sobre IP.
 
+rack 8U
 
 
 
-Gerenciador de sistema de alta voz completo. Amplificador de até 240W. Porta USB para leitura de mídias. Sistema de chamada de pelo menos 5 zonas. Fixação em rack 19" ou sobre a mesa. Ref.: Praesideo / Plena (Bosch) ou similar. 
 
-Amplificador de sistema de alta voz, Circuito de proteção contra aquecimento, Saídas de 70 / 100V. Fixação em rack 19" ou sobre a mesa. Ref.: Praesideo / Plena (Bosch) ou similar. 
+#===================================
+Gerenciador de sistema de alta voz completo. Amplificador imbutido de até 240W. Compatível com sistema de chamada de pelo menos 5 zonas.Compatívekl com sistema de prevenção e evacuação de pessoas. Fixação em rack 19". Ref.: Praesideo / Plena (Bosch) ou similar. 
 
-Painel remoto para controle de gerenciado de alta voz 
-Alto falante tipo corneta, com potência mínima de 35W e tensão 100V. 
+Amplificador de sistema de alta voz, Saídas de 100V, compatível com genrenciador utilizado. Potência pelomenos até 240W. Fixação em rack 19". Ref.: Praesideo / Plena (Bosch) ou similar. 
 
-Console para comunicação de altavoz, com microfone. Ganho selecionável, filtro por voz e limitador para melhor percepção da voz. Mínimo de 6 canáis e teclas para acionar módo fala.
+Console de mesa para comunicação de altavoz, com microfone e botões de acesso a zonas individuais. Ganho selecionável. Mínimo 6 canáis. Ref.: Praesideo / Plena (Bosch) ou similar. 
+
+Alto falante tipo corneta, com potência de 30W e tensão 100V. Ou tipo Alto-falantes Line Array Ref.: TOA / Plena (Bosch) ou similar. 
+
+
 
 
 
