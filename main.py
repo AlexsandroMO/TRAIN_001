@@ -1,7 +1,8 @@
-!pip install pandas
+'''!pip install pandas
 !pip install excel
 !pip install pandasql
 !pip install sqlite3
+'''
 
 import pandas as pd
 import pandasql as pdsql
