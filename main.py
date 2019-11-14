@@ -1,18 +1,19 @@
-'''!pip install pandas
+#https://pt.stackoverflow.com/questions/296286/encontrar-determinado-texto-em-uma-string
 !pip install excel
 !pip install pandasql
 !pip install sqlite3
-'''
 
 import pandas as pd
 import pandasql as pdsql
 import sqlite3
-
+import re
 
 df1 = pd.read_excel('AVALIA_PRODUTO.xlsx', 'AVALIA')
 df2 = pd.read_excel('AVALIA_PRODUTO.xlsx', 'PM')
 
 df1['SEARCHED'] = '-'
+
+df2.head()
 
 create_table1 = []
 cont = 0
@@ -29,69 +30,34 @@ for a in range(len(df1['REV_TEXTO'])):
                     #print(b)
                     new.append(b)
         
-    df1['SEARCHED'].loc[a] = new
-                    
+    df1['SEARCHED'].loc[a] = f"""{new}"""
+    print(len(df1['SEARCHED'].loc[a]), df1['SEARCHED'].loc[a])
+    add_cos(df1['SEARCHED'].loc[a],  'ok')          
     cont += 1 
     
-    #print('--->>>', cont)
-    
-    
-    
-  def add_cos(cos, rev):
 
-    conn = sqlite3.connect('DB_PROJECT.db')
-    c = conn.cursor()
 
-    qsl_datas = f"""
-                INSERT INTO TABLE_COS(COS,REV)
-                VALUES ('{cos}', '{rev}');
-    """
 
-    c.execute(qsl_datas)
+import re
 
-    conn.commit()
-    conn.close()
-    
- for i in range(len(df1['SEARCHED'])):
-    print(df1['SEARCHED'].loc[i])
-    add_cos(df1['SEARCHED'].loc[i],df1['REV'].loc[i])
-    
-    
-    
-    
-def criar_tabela1():
-    #===========================================
-    #Criar Tabela USER
-    conn = sqlite3.connect('DB_PROJECT.db')
-    c = conn.cursor()
-    table_createdb = f"""
-    
-    CREATE TABLE IF NOT EXISTS TABLE_COS (
-    ID INTEGER PRIMARY KEY,
-    COS VARCHAR(300) NOT NULL,
-    REV VARCHAR(2) NOT NULL
-    )"""
+nome = 'dded MT01 inspection (CTE01042635).\n'
 
-    status = True
-    
-    return status
-    
-    
-def criar_tabela2():
-    #===========================================
-    #Criar Tabela USER
-    conn = sqlite3.connect('DB_PROJECT.db')
-    c = conn.cursor()
-    table_createdb = f"""
-    
-    CREATE TABLE IF NOT EXISTS TABLE_PM (
-    ID INTEGER PRIMARY KEY,
-    PM VARCHAR(15) NOT NULL,
-    STATUS_PM VARCHAR(3) NOT NULL
-    )"""
+if re.search(f"""\\bMT01\\b""", nome, re.IGNORECASE):
+    print("A string tem o nome Enzo")
+else:
+    print("A string não tem o nome Enzo")
 
-    status = True
-    
-    return status 
-    
-    
+df1
+
+for a in range(len(df1['REV_TEXTO'])):
+  text_COS = df1['REV_TEXTO'].loc[a]
+  for a in range(len(df2['PRODUTOS'])):
+    PM = df2['PRODUTOS'].loc[a]
+    if re.search(f"""\\b{PM}\\b""", text_COS, re.IGNORECASE):
+      print("A string tem o nome Enzo")
+      df2['RESULT'].loc[a] = 'OK'
+    else:
+      print("A string não tem o nome Enzo")
+
+
+df2[df2['RESULT'] == 'OK']
