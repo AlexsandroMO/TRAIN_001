@@ -72,6 +72,8 @@ df2.to_excel('NEW_TABLE.xlsx')
 
 
 #=============================
+#https://mybinder.org/
+
 !pip install excel
 !pip install pandas
 !pip install openpyxl
