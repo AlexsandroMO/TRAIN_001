@@ -1,7 +1,9 @@
 #https://pt.stackoverflow.com/questions/296286/encontrar-determinado-texto-em-uma-string
+'''
 !pip install excel
 !pip install pandasql
 !pip install sqlite3
+'''
 
 import pandas as pd
 import pandasql as pdsql
@@ -43,14 +45,12 @@ for a in range(len(df1['REV_TEXTO'])):
             #print('nnnn')
             if b[:2] != 'PR':
                 if b[:1] == 'P':
-                    #print(b)
+                    #print(b, end=' | ')
                     new.append(b)
-        
-    df1['SEARCHED'].loc[a] = f"""{new}"""
-    print(len(df1['SEARCHED'].loc[a]), df1['SEARCHED'].loc[a])
-    add_cos(df1['SEARCHED'].loc[a],  'ok')          
-    cont += 1 
-    
+    result = [' '.join(new)]
+    print(result)
+
+    print('\n')
 
 #========================
 
