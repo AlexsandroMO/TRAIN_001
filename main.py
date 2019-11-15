@@ -55,7 +55,7 @@ for a in range(len(df1['REV_TEXTO'])):
     print('\n')
 
 #========================
-
+#Search
 import re
 
 nome = 'dded MT01 inspection (CTE01042635).\n'
@@ -65,8 +65,13 @@ if re.search(f"""\\bMT01\\b""", nome, re.IGNORECASE):
 else:
     print("A string não tem o nome Enzo")
     
-    
-    
+#Join
+separator = ' '
+array = ['_', '_', '_', '_', '_', '_', '_']
+result = [separator.join(array)]
+print(result)
+
+
 #==========================
 df2.to_excel('NEW_TABLE.xlsx')
 
