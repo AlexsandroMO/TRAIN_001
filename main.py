@@ -13,7 +13,23 @@ df2 = pd.read_excel('AVALIA_PRODUTO.xlsx', 'PM')
 
 df1['SEARCHED'] = '-'
 
-df2.head()
+df2 = df2[['PRODUTOS','RESULT']]
+
+for a in range(len(df1['REV_TEXTO'])):
+  text_COS = df1['REV_TEXTO'].loc[a]
+  for a in range(len(df2['PRODUTOS'])):
+    PM = df2['PRODUTOS'].loc[a]
+    if re.search(f"""\\b{PM}\\b""", text_COS, re.IGNORECASE):
+      #print("A string tem o nome Enzo")
+      df2['RESULT'].loc[a] = 'OK'
+    #else:
+      #print("A string não tem o nome Enzo")
+
+
+df2[df2['RESULT'] == 'OK']
+df2
+
+#============================
 
 create_table1 = []
 cont = 0
@@ -36,7 +52,7 @@ for a in range(len(df1['REV_TEXTO'])):
     cont += 1 
     
 
-
+#========================
 
 import re
 
@@ -46,18 +62,3 @@ if re.search(f"""\\bMT01\\b""", nome, re.IGNORECASE):
     print("A string tem o nome Enzo")
 else:
     print("A string não tem o nome Enzo")
-
-df1
-
-for a in range(len(df1['REV_TEXTO'])):
-  text_COS = df1['REV_TEXTO'].loc[a]
-  for a in range(len(df2['PRODUTOS'])):
-    PM = df2['PRODUTOS'].loc[a]
-    if re.search(f"""\\b{PM}\\b""", text_COS, re.IGNORECASE):
-      print("A string tem o nome Enzo")
-      df2['RESULT'].loc[a] = 'OK'
-    else:
-      print("A string não tem o nome Enzo")
-
-
-df2[df2['RESULT'] == 'OK']
