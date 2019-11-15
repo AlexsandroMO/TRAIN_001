@@ -64,3 +64,9 @@ if re.search(f"""\\bMT01\\b""", nome, re.IGNORECASE):
     print("A string tem o nome Enzo")
 else:
     print("A string não tem o nome Enzo")
+    
+    
+    
+#==========================
+df2.to_excel('NEW_TABLE.xlsx')
+    
