@@ -1,5 +1,8 @@
 #https://pt.stackoverflow.com/questions/296286/encontrar-determinado-texto-em-uma-string
 #Estudar: https://www.alura.com.br/artigos/criando-um-executavel-a-partir-de-um-programa-python
+#https://pt.stackoverflow.com/questions/13806/como-criar-um-executavel-exe-em-python
+
+
 '''
 !pip install excel
 !pip install pandas
