@@ -1,8 +1,10 @@
 #https://pt.stackoverflow.com/questions/296286/encontrar-determinado-texto-em-uma-string
 '''
 !pip install excel
+!pip install pandas
 !pip install pandasql
 !pip install sqlite3
+!pip install openpyxl
 '''
 
 import pandas as pd
