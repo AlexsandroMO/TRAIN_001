@@ -73,6 +73,8 @@ df2.to_excel('NEW_TABLE.xlsx')
 
 #=============================
 #https://mybinder.org/
+#https://hub.gke.mybinder.org/user/jupyterlab-jupyterlab-demo-pgfpbi9p/lab/workspaces/auto-w
+
 
 !pip install excel
 !pip install pandas
